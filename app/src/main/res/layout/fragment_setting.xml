@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentSetting">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relatip">
+
+        <ImageView
+            android:id="@+id/header"
+            style="@style/btnstyle1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:src="@drawable/shape_oren" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        style="@style/Monserat"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="24dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:layout_below="@id/relatip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_contact"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_putih_border_oren"
+            style="@style/btnstyle1"
+            android:text="Contact"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:textSize="11dp"
+            android:elevation="2dp"
+            android:textAllCaps="false"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_abaout"
+            android:background="@drawable/shape_putih_border_oren"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            style="@style/btnstyle1"
+            android:text="About"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:elevation="2dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/page_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="80dp">
+
+    </FrameLayout>
+
+</RelativeLayout>

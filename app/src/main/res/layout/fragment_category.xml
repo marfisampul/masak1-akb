@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentCategory">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relatip">
+
+        <ImageView
+            android:id="@+id/header"
+            style="@style/btnstyle1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:src="@drawable/shape_oren"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtJudulKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori Resep Masakan"
+        style="@style/Monserat"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="24dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerkategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relatip"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="16dp"
+        tools:listitem="@layout/item_list_category" />
+
+</RelativeLayout>

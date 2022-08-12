@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btnstyle1" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/monserat</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/shape_oren_rounded</item>
+    </style>
+
+    <style name="btnstyle2" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/monserat</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/shape_putih</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+</resources>
