@@ -16,9 +16,6 @@
         android:icon="@drawable/ic_fav"
         android:title="Favorit"/>
 
-    <item
-        android:id="@+id/setting"
-        android:icon="@drawable/ic_setting"
-        android:title="Pengaturan"/>
+    **/Bottom contact belum??
 
 </menu>

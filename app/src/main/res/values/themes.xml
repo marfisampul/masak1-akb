@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Masakapah" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/Oren</item>
-        <item name="colorPrimaryVariant">@color/Oren</item>
+        <item name="colorPrimary">@color/langit</item>
+        <item name="colorPrimaryVariant">@color/langit</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
